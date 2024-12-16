@@ -1,0 +1,49 @@
+/* Header container */
+.header-container {
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 0.5rem 1rem;
+}
+
+.header-navbar {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Brand on the left, button on the right */
+  align-items: center;
+  width: 100%; /* Ensure the content spans the full width */
+}
+
+/* Brand styles */
+.header-navbar-brand {
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header-navbar-brand:hover {
+  color: #ffdd57; /* Hover effect */
+}
+
+/* Logout button */
+.header-btn-danger {
+  background-color: #ff5a5f; /* Softer red */
+  border: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 20px; /* Rounded button */
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header-btn-danger:hover {
+  background-color: #ff787d; /* Slightly lighter on hover */
+  transform: scale(1.05); /* Slight scaling on hover */
+}

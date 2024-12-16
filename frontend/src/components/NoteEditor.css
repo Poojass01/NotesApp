@@ -1,0 +1,84 @@
+/* Center the editor vertically and horizontally */
+.note-editor-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Editor container */
+  .note-editor-container {
+    background-color: white;
+    border-radius: 12px;
+    width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title input styling */
+  .note-title {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  /* Content textarea styling */
+  .note-content {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    resize: none;
+    margin-bottom: 20px;
+  }
+  
+/* Cancel button styling */
+.note-cancel-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.note-cancel-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Save button styling */
+.note-save-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.note-save-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Button row styling */
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+  
+  
+
+  

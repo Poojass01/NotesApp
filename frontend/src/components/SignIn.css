@@ -1,0 +1,67 @@
+.signin-page {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://source.unsplash.com/random/1920x1080?technology') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signin-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.signin-box {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.signin-button {
+    width: 90%;
+    padding: 10px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signin-footer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signin-link {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styling for the "Welcome to NotesApp" heading */
+.signin-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}

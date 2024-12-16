@@ -1,0 +1,122 @@
+/* Wrapper for the entire notes list */
+.notelist-wrapper {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Header with title and button */
+.notelist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Title for the notes section */
+.notelist-header h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Small button next to the title */
+.notelist-btn-small {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.notelist-btn-small:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the list of notes */
+.notelist-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual note card */
+.notelist-card {
+  background-color: #fdfdfd;
+  padding: 15px;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.notelist-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Title of the note */
+.notelist-card h5 {
+  font-size: 20px;
+  color: #34495e;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+/* Content preview of the note */
+.notelist-card p {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Buttons inside note card */
+.notelist-card button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Edit button */
+.notelist-card button:first-child {
+  background-color: #3498db;
+  color: white;
+}
+
+.notelist-card button:first-child:hover {
+  background-color: #2980b9;
+}
+
+/* Delete button */
+.notelist-card button:last-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.notelist-card button:last-child:hover {
+  background-color: #c0392b;
+}
+
+
